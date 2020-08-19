@@ -9,8 +9,7 @@ import SwiftUI
 
 struct Digits: View {
     let width = UIScreen.main.bounds.width / 5
-    @Binding var display: String
-    @State var userTyped = false
+    @EnvironmentObject var env: GlobalEnvironment
     
     let digitsRows = [
         [7, 8, 9],
@@ -24,11 +23,11 @@ struct Digits: View {
             HStack(spacing: width / 5) {
                 ForEach(row, id: \.self) { digit in
                     Button("\(digit)", action: {
-                        if self.userTyped {
-                            self.display = self.display + "\(digit)"
+                        if self.env.userTyped {
+                            env.display = env.display + "\(digit)"
                         } else {
-                            self.display = "\(digit)"
-                            self.userTyped = true
+                            env.display = "\(digit)"
+                            env.userTyped = true
                         }
                     })
                     .font(.system(size: 32))

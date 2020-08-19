@@ -15,6 +15,8 @@
 		AE2A9CDC24E99C1D00F03AF5 /* SimpleCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A9CDB24E99C1D00F03AF5 /* SimpleCalculatorUITests.swift */; };
 		AE2A9CEA24E9B17700F03AF5 /* Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A9CE924E9B17700F03AF5 /* Digits.swift */; };
 		AE2A9CEC24E9B77A00F03AF5 /* ArithmeticSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A9CEB24E9B77A00F03AF5 /* ArithmeticSymbols.swift */; };
+		AEF1767C24EAE144007C825C /* TransformSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1767B24EAE144007C825C /* TransformSymbols.swift */; };
+		AEF1767E24EAF77E007C825C /* GlobalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1767D24EAF77E007C825C /* GlobalEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		AE2A9CDD24E99C1D00F03AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2A9CE924E9B17700F03AF5 /* Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digits.swift; sourceTree = "<group>"; };
 		AE2A9CEB24E9B77A00F03AF5 /* ArithmeticSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSymbols.swift; sourceTree = "<group>"; };
+		AEF1767B24EAE144007C825C /* TransformSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformSymbols.swift; sourceTree = "<group>"; };
+		AEF1767D24EAF77E007C825C /* GlobalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				AE2A9CC424E99C1D00F03AF5 /* Preview Content */,
 				AE2A9CE924E9B17700F03AF5 /* Digits.swift */,
 				AE2A9CEB24E9B77A00F03AF5 /* ArithmeticSymbols.swift */,
+				AEF1767B24EAE144007C825C /* TransformSymbols.swift */,
+				AEF1767D24EAF77E007C825C /* GlobalEnvironment.swift */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				AE2A9CEC24E9B77A00F03AF5 /* ArithmeticSymbols.swift in Sources */,
 				AE2A9CEA24E9B17700F03AF5 /* Digits.swift in Sources */,
 				AE2A9CBF24E99C1B00F03AF5 /* SimpleCalculatorApp.swift in Sources */,
+				AEF1767E24EAF77E007C825C /* GlobalEnvironment.swift in Sources */,
+				AEF1767C24EAE144007C825C /* TransformSymbols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,19 +9,21 @@ import SwiftUI
 
 struct ArithmeticSymbols: View {
     let width = UIScreen.main.bounds.width / 5
-    let symbols = ["÷", "×","−", "+"]
-    @Binding var display: String
+    let symbols = ["÷", "×","−", "+", "="]
+    @EnvironmentObject var env: GlobalEnvironment
     
     var body: some View {
         VStack(spacing: width / 5) {
             ForEach(symbols, id: \.self) { symbol in
                 Button("\(symbol)", action: {
-                        self.display = "\(symbol)"
+                    if env.userTyped {
+                        env.display = "\(symbol)"
+                    }
                 })
                 .font(.system(size: 32))
                 .frame(width: width, height: width)
                 .foregroundColor(.white)
-                .background(Color.blue)
+                .background(Color(.purple))
                 .cornerRadius(width)
             }
         }
