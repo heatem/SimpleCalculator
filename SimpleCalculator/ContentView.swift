@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     let width = UIScreen.main.bounds.width / 5
     @EnvironmentObject var env: GlobalEnvironment
+    @State var controller = CalculatorController()
     
     var body: some View {
         VStack {
@@ -23,7 +24,7 @@ struct ContentView: View {
                 .padding(.trailing)
             HStack(alignment: .bottom, spacing: width / 5) {
                 VStack(alignment: .center, spacing: width / 5) {
-                    TransformSymbols()
+                    TransformSymbols(controller: $controller)
                     Digits()
                 }
                 ArithmeticSymbols()
