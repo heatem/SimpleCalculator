@@ -27,7 +27,7 @@ struct ContentView: View {
                     TransformSymbols(controller: $controller)
                     Digits()
                 }
-                ArithmeticSymbols()
+                ArithmeticSymbols(controller: $controller)
             }
         }.padding(.bottom)
         

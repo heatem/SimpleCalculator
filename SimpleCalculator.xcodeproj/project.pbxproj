@@ -106,15 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				AE2A9CBE24E99C1B00F03AF5 /* SimpleCalculatorApp.swift */,
+				AEF1767D24EAF77E007C825C /* GlobalEnvironment.swift */,
 				AE2A9CC024E99C1B00F03AF5 /* ContentView.swift */,
+				AE2A9CEB24E9B77A00F03AF5 /* ArithmeticSymbols.swift */,
 				AE2A9CC224E99C1D00F03AF5 /* Assets.xcassets */,
 				AE2A9CC724E99C1D00F03AF5 /* Info.plist */,
 				AE2A9CC424E99C1D00F03AF5 /* Preview Content */,
 				AE2A9CE924E9B17700F03AF5 /* Digits.swift */,
 				AEF1767F24EE13E1007C825C /* CalculatorController.swift */,
-				AE2A9CEB24E9B77A00F03AF5 /* ArithmeticSymbols.swift */,
 				AEF1767B24EAE144007C825C /* TransformSymbols.swift */,
-				AEF1767D24EAF77E007C825C /* GlobalEnvironment.swift */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
