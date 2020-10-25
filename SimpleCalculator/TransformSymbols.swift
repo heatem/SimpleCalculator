@@ -29,7 +29,7 @@ struct TransformSymbols: View {
                         self.env.userTyped = false
                     }
                 })
-                .font(.system(size: 32))
+                .font(transformSymbol == "AC" ? .system(size: 28) : .system(size: 32))
                 .frame(width: width, height: width)
                 .foregroundColor(.white)
                 .background(Color(.blue))
